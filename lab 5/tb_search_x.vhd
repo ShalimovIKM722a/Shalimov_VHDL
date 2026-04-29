@@ -21,8 +21,8 @@ architecture search_x_tb_arch of search_x_tb is
 	-- Custom signals and constants
 	constant clk_period : time := 10 ns;
 	type slv_array is array (0 to 15) of STD_LOGIC_VECTOR(3 downto 0);
-	constant y_variants_r0 : slv_array := (x"4", x"d", x"3", x"9", x"a", x"e", x"7", x"1", x"f", x"2", x"5", x"b", x"c", x"8", x"6", x"0");
-	constant y_variants_r1 : slv_array := (x"f", x"7", x"9", x"2", x"0", x"a", x"e", x"6", x"d", x"3", x"4", x"b", x"c", x"1", x"5", x"8");		 
+    constant y_variants_r0 : slv_array := (x"1", x"d", x"2", x"9", x"7", x"a", x"6", x"0", x"8", x"c", x"4", x"5", x"f", x"3", x"b", x"e");
+    constant y_variants_r1 : slv_array := (x"7", x"0", x"2", x"d", x"a", x"b", x"6", x"4", x"8", x"3", x"5", x"e", x"9", x"1", x"f", x"c"); 
 
 begin
 
